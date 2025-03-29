@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgb(67, 56, 56);
+
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    margin: 1px;
+    background-color: turquoise;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+
+.modal {
+    background-color: rgb(198, 166, 116);
+    border: solid rgb(0, 0, 0) 2px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 100px;
+    width: 150px;
+    font-size: 30px;
+}
+
+#button {
+    border: solid rgb(0, 0, 0) 2px;
+    background-color: rgb(198, 166, 116);
+    color: aliceblue;
+    text-align: center;
+    width: 150px;
+    font-size: 20px;
+}
